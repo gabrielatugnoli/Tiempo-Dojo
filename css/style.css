@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: lightblue;
+}
+
+nav {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+h1, nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.sanjose {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+
+.semana {
+    display: flex;
+    width: 1000px;
+    margin: 30px auto;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.dia img {
+    border-radius: 50%;
+    width: 150px;
+    margin: 20px 0;
+}
+
+.dia {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px 10px;
+    flex: 1;
+}
+
+.temperatura {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.maxTemp {
+    color: darkred;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.minTemp {
+    color: darkblue;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cookie {
+    border: 2px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.cookie .text {
+    width: 50%;
+}
+
+button {
+    background-color: cornflowerblue;
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-size: medium;
+    cursor: pointer;
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+}
+
